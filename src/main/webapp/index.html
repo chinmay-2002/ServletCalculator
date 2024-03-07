@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Chinmay's Calculator</title>
+<style>
+
+body{
+	background-color: lightblue;
+}
+form {
+  width: 300px; 
+  margin: 0 auto;
+}
+
+
+input[type="text"] {
+  width: 100%; 
+  padding: 10px; 
+  margin: 5px 0; 
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+}
+
+
+input[type="submit"] {
+  background-color: cornflowerblue;	
+  border: none; 
+  color: white; 
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 10px;
+}
+h1{
+	font-size: 40px;
+}
+input[type="submit"]:hover {
+  background-color: royalblue;
+}
+
+
+</style>
+</head>
+<body bgcolor='red'>
+<center>
+<h1> Welcome to Chinmay's Calculator</h1>
+<form action="add" method = "get">
+
+
+<h1>
+
+Enter First Number
+
+
+<input type="text" name= "num1" required>
+<br/>
+Enter Second Number
+
+
+<input type="text" name= "num2" required>
+<br/>
+
+<input type="submit" name="operation" value="addition">
+        <input type="submit" name="operation" value="subtraction">
+        <input type="submit" name="operation" value="multiplication">
+        <input type="submit" name="operation" value="division">
+        <input type="submit" name="operation" value="modulo">
+
+</h1>
+</form>
+</center>
+</body>
+</html>
